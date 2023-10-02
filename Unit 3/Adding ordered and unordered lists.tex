@@ -1,0 +1,36 @@
+\documentclass{article}
+\begin{document}
+
+\section{Ordered List}
+
+\begin{enumerate}
+    \item First item in an ordered list
+    \item Second item in an ordered list
+    \item Third item in an ordered list
+\end{enumerate}
+
+\section{Unordered List}
+
+\begin{itemize}
+    \item First item in an unordered list
+    \item Second item in an unordered list
+    \item Third item in an unordered list
+\end{itemize}
+
+
+\begin{itemize}
+    \renewcommand{\labelitemi}{--}
+    \item First item
+    \item Second item
+    \item Third item
+\end{itemize}
+
+
+\begin{enumerate}
+    \renewcommand{\labelenumi}{\Alph{enumi}.}
+    \item First item
+    \item Second item
+    \item Third item
+\end{enumerate}
+
+\end{document}
